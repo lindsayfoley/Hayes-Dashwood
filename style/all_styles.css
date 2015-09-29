@@ -1,0 +1,33 @@
+header { background-image: none; height: auto; }
+main { padding-top: 20px; }
+.subNav { background-color: white; }
+main ul { list-style-type: none; padding-left: 0; }
+main td { width: 300px; padding: 7px; }
+main table { margin-bottom: 35px; border: 1px solid #cbcbcf; }
+#emergency { font-size: 15px; color: red; font-weight: bold; } 
+#emergency, #emergency ~ p { text-align: center; }
+hr { border: 0; height: 1px; background: #dbdbde; margin: 20px 0; }
+
+/* history */
+#imageTextSection > div { width:480px; }
+#history figure, #imageTextSection > div { float: left; }
+#history figure { margin:0 20px 0 0; }
+#history figcaption { width:380px; }
+#openingCopy { width: 480px; }
+
+/* trustees */
+#trustees section { overflow:hidden; }
+#trustees > div { width:900px; margin:0 auto; padding-top:15px; }
+#trustees-list ul, #reports p:first-of-type { margin-top:5px; }
+#trustees-list, #reports { float:left; width:440px; }
+#trustees-list { margin-right:10px; }
+#reports { margin-left:10px; }
+#reports ul { list-style-type:alpha; padding-left:15px; }
+
+/* location */
+#locationPg { padding-bottom: 20px; }
+#mapContainer {  margin: 20px auto 0 auto; }
+#maps_background { width: 500px; height: 400px; margin-right: 20px; }
+#transportation { width: 380px; }
+
+
